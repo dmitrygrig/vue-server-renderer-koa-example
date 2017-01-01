@@ -1,0 +1,22 @@
+{
+  "name": "vue-server-renderer-koa-example",
+  "version": "1.0.0",
+  "description": "Example of Vue.js Server-Side Rendering with Koa inspired by https://vuejs.org/v2/guide/ssr.html#Simple-SSR-with-the-Express-Web-Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --harmony index.js",
+    "dev": "nodemon --harmony -e js,json,html,hbs index.js",
+    "debug": "DEBUG=express* node-debug index.js --debug-brk"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "koa": "^1.2.4",
+    "koa-static": "^2.0.0",
+    "path": "^0.12.7",
+    "promise": "^7.1.1",
+    "vue": "^2.1.8",
+    "vue-server-renderer": "^2.1.8"
+  },
+  "devDependencies": {},
+  "author": "dmitrygrig <dmitrygrig@gmail.com>"
+}
